@@ -1,0 +1,13 @@
+// Banner Ad
+
+#banner_adds{
+    
+    .container-fluid{
+        padding: 40px 100px;
+        overflow: hidden;
+        display: flex;
+    }
+    .container-fluid img{
+        width: 50%;
+    }
+}

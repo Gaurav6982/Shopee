@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Metal+Mania&family=MuseoModerno&family=Sriracha&display=swap");
+.font-metal {
+  font-family: "Metal Mania", cursive;
+}
+
+.font-sri {
+  font-family: "Sriracha", cursive;
+}
+
+.font-musio {
+  font-family: "MuseoModerno", cursive;
+}
+
+.font-12 {
+  font-size: 12px;
+}
+
+.font-14 {
+  font-size: 14px;
+}
+
+.font-20 {
+  font-size: 20px;
+}
+
+.color-primary {
+  color: #003859;
+}
+
+.color-primary-bg {
+  background: #003859;
+}
+
+.color-second {
+  color: #00A5C4;
+}
+
+.color-second-bg {
+  background: #00A5C4;
+}
+
+.color-yellow {
+  color: #FFD289;
+}
+
+.color-yellow-bg {
+  background: #FFD289;
+}
+
+#topSale .owl-carousel .item .product a, #newPhone .owl-carousel .item .product a {
+  overflow: hidden;
+}
+#topSale .owl-carousel .item .product img, #newPhone .owl-carousel .item .product img {
+  transition: transform 0.5s ease;
+}
+#topSale .owl-carousel .item .product img:hover, #newPhone .owl-carousel .item .product img:hover {
+  transform: scale(1.05);
+}
+#topSale .owl-carousel .owl-nav button, #newPhone .owl-carousel .owl-nav button {
+  position: absolute;
+  top: 30%;
+  outline: none;
+}
+#topSale .owl-carousel .owl-nav button.owl-prev,
+#topSale .owl-carousel .owl-nav button.owl-next, #newPhone .owl-carousel .owl-nav button.owl-prev,
+#newPhone .owl-carousel .owl-nav button.owl-next {
+  font-size: 35px;
+  color: #003859;
+  padding: 0 1rem;
+}
+#topSale .owl-carousel .owl-nav button.owl-prev, #newPhone .owl-carousel .owl-nav button.owl-prev {
+  left: 0;
+}
+#topSale .owl-carousel .owl-nav button.owl-prev span, #newPhone .owl-carousel .owl-nav button.owl-prev span {
+  margin-left: -4rem;
+}
+#topSale .owl-carousel .owl-nav button.owl-next, #newPhone .owl-carousel .owl-nav button.owl-next {
+  right: 0;
+}
+#topSale .owl-carousel .owl-nav button.owl-next span, #newPhone .owl-carousel .owl-nav button.owl-next span {
+  margin-right: -4rem;
+}
+#topSale .item img, #newPhone .item img {
+  height: 260px;
+  overflow: hidden;
+}
+#topSale .product, #newPhone .product {
+  overflow: hidden;
+}
+
+#special-price .item .product {
+  overflow: hidden;
+}
+#special-price .item .product a {
+  overflow: hidden;
+}
+#special-price .item .product a img {
+  height: 200px;
+  width: 95%;
+}
+
+#banner_adds .container-fluid {
+  padding: 40px 100px;
+  overflow: hidden;
+  display: flex;
+}
+#banner_adds .container-fluid img {
+  width: 50%;
+}
+
+#product .container img {
+  height: 500px;
+}
+
+/*# sourceMappingURL=style.css.map */

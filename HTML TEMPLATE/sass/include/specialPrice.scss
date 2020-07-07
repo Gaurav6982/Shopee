@@ -1,0 +1,25 @@
+// Special Price Templete
+
+#special-price{
+    // .item .product a img{
+    //     height: 200px;
+    // }
+    // .item{
+    //     height: 250px;
+    //     overflow: hidden;
+    // }
+    .item .product {
+        overflow: hidden;
+    }
+    .item .product a{
+        // border: 2px solid black;
+        overflow: hidden;
+        // padding: 50px;
+        // padding-left: 20px;
+        // margin: auto;
+    }
+    .item .product a img{
+        height: 200px;
+        width: 95%;
+    }
+}
